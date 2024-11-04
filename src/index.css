@@ -6,20 +6,8 @@
 
     html,
     body {
-        @apply h-screen w-screen;
-        /* Ocupa toda la altura y ancho de la viewport */
+        width: 100%;
+        overflow-x: hidden;
     }
 
-    .container {
-        @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
-        /* Ajusta el ancho máximo según tus necesidades */
-        @apply flex flex-col items-center justify-center;
-        /* Centra los elementos vertical y horizontalmente */
-
-        /* Media query para pantallas pequeñas */
-        @screen sm {
-            @apply max-w-none;
-            /* Ocupa todo el ancho disponible */
-        }
-    }
 }
