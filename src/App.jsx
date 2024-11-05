@@ -5,7 +5,7 @@ import { Banner } from './components/Banner'
 import { Conferences } from './components/Conferences'
 import { Footer } from './components/Footer'
 import './App.css'
-import { FinalQuote } from './components/FinalQuote'
+import { NextConferences } from './components/NextConferences'
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
       <Purpose />
       <Banner />
       <Conferences />
+      <NextConferences />
       <Footer />
     </>
   )

@@ -6,8 +6,8 @@ import { FinalQuote } from './FinalQuote'
 
 export const NextConferences = () => {
     return (
-        <div className="grid place-content-center">
-            <h1 className="font-extrabold text-[30px] md:text-[35px] pb-[40px] text-blue-light">Próximas Conferencias</h1>
+        <div className="grid place-content-center text-center">
+            <h1 className="font-extrabold text-3xl md:text-4xl pb-[40px] text-blue-light">Próximas Conferencias</h1>
 
             <article className="flex flex-col md:flex-row justify-center items-center mx-auto w-[350px] sm:w-[75%] md:w-[95%] lg:w-[1000px] h-[200px] sm:h-[230px] md:h-[250px] bg-gray-50 shadow-xl rounded-xl">
                 <div className="hidden md:block w-full md:w-1/2 h-full">
