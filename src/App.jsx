@@ -1,4 +1,4 @@
-import { Header } from './Components/Header'
+import { Header } from './components/Header'
 import { Video } from './components/Video'
 import { Purpose } from './components/Purpose'
 import { Banner } from './components/Banner'
