@@ -11,8 +11,7 @@ export default {
         'blue-verylight': '#0a66c2',
       },
       fontFamily: {
-        'OpenSans': ['Open Sans', 'sans - serif'],
-        'Oswald': ['Oswald', ' sans-serif']
+        'OpenSans': ['Open Sans', 'sans - serif']
       },
     },
   },
