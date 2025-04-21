@@ -1,6 +1,6 @@
 
-import Conferencia1 from '../assets/images/mobile-card-05.png'
-import Conferencia2 from '../assets/images/mobile-card-03.png'
+import Conferencia1 from '../assets/images/mobile-card-05.webp'
+import Conferencia2 from '../assets/images/mobile-card-03.webp'
 import { ConferencesData } from './ConferencesData'
 import { FinalQuote } from './FinalQuote'
 
