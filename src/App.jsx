@@ -3,10 +3,9 @@ import { Video } from './components/Video'
 import { Purpose } from './components/Purpose'
 import { Banner } from './components/Banner'
 import { Conferences } from './components/Conferences'
+import { NextConferences } from './components/NextConferences'
 import { Footer } from './components/Footer'
 import './App.css'
-import { NextConferences } from './components/NextConferences'
-
 
 function App() {
   return (
