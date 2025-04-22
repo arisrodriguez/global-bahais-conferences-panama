@@ -6,9 +6,12 @@ export const Video = () => {
             <div className='w-full max-w-[1000px] aspect-video">'>
                 <lite-youtube
                     videoid="58e6o4kp3Eg"
-                    poster="https://img.youtube.com/vi/58e6o4kp3Eg/maxresdefault.webp"
-                    className="w-full h-full block"
+                    posterquality="maxresdefault" // O usa maxresdefault para calidad
                 >
+                    {/* Fallback: Enlace a YouTube si la imagen no carga */}
+                    <a className="lite-youtube-fallback" href="https://www.youtube.com/watch?v=58e6o4kp3Eg">
+                        Ver en YouTube
+                    </a>
                 </lite-youtube>
             </div>
         </div>
