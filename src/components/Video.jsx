@@ -7,7 +7,7 @@ export const Video = () => {
                 <lite-youtube
                     videoid="58e6o4kp3Eg"
                     posterquality="maxresdefault"
-                    autoload
+                    autload
                 >
                 </lite-youtube>
             </div>
