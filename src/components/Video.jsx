@@ -6,9 +6,10 @@ export const Video = () => {
             <div className='w-full max-w-[1000px] aspect-video">'>
                 <lite-youtube
                     videoid="58e6o4kp3Eg"
-                    poster="https://img.youtube.com/vi/58e6o4kp3Eg/maxresdefault.webp"
+                    posterquality="maxresdefault"
                     className="w-full h-full block"
-                ></lite-youtube>
+                >
+                </lite-youtube>
             </div>
         </div>
     )
