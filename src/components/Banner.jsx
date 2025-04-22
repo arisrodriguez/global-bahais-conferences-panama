@@ -1,9 +1,16 @@
-import foto from '../assets/images/foto.webp'
+import fotoMobile from '../assets/images/foto-mobile.webp'
+import fotoDesktop from '../assets/images/foto-desktop.webp'
 
 export const Banner = () => {
     return (
         <div className='relative pt-[30px] mx-auto'>
-            <img className='w-full h-[300px] md:h-[500px] lg:h-[500px] object-cover' src={foto} alt="Banner de amigos unidos" />
+            <picture>
+                <source media='(max-width: 768px)' srcSet={fotoMobile} />
+
+                <source media='(min-width: 769px)' srcSet={fotoDesktop} />
+
+                <img src={fotoDesktop} alt="Banner de amigos unidos" />
+            </picture>
 
             <a
                 href="https://forms.office.com/pages/responsepage.aspx?id=rkB78Au2D06-vq-0L8TcaSkTJSnRsDRJgR7uSVI6YERUNFI3M0YzNUEyUldMM0RLMUo0SEQxQlpIUS4u&route=shorturl"
