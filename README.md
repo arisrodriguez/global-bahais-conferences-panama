@@ -29,9 +29,9 @@ La aplicación muestra un calendario interactivo con todas las conferencias y ev
 ## 📌 Estado del proyecto
 
 🚧 En desarrollo. Se están implementando más funcionalidades como la integración con sistemas de registro y actualización en tiempo real de los eventos.
-
+-->
 ## 📫 Contacto
 
-Puedes encontrarme en [mi sitio web](https://a-r.) o a través de mis redes sociales enlazadas allí.
--->
+Puedes encontrarme en [mi sitio web](https://a-r-dev.vercel.app/) o a través de mis redes sociales enlazadas allí.
+
 
